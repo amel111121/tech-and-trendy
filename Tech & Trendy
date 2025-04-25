@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech & Trendy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(#f5f7fa, #e4e7ed);
+    }
+    header {
+      background: #0b132b;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 40px;
+      margin: 0;
+    }
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    .section-title {
+      font-size: 28px;
+      margin: 40px 20px 20px;
+      color: #1e1e2f;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 0 20px 40px;
+    }
+    .product-card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 20px 15px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+    }
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .product-card h3 {
+      font-size: 20px;
+      margin: 15px 0 10px;
+    }
+    .product-card p {
+      font-size: 16px;
+      color: #444;
+      margin: 0 0 15px;
+    }
+    .product-card a {
+      background: #ff5f6d;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .product-card a:hover {
+      background: #e04b56;
+    }
+    .upload-section {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .upload-section p {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    .upload-section a {
+      background: #17c3b2;
+      color: white;
+      padding: 10px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: background 0.3s;
+    }
+    .upload-section a:hover {
+      background: #129e91;
+    }
+    footer {
+      background: #0b132b;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    footer a {
+      color: #cce7ff;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tech & Trendy</h1>
+    <p>Your go-to shop for gadgets and style</p>
+  </header>
+
+  <div class="section-title">Electronics</div>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Smartphone">
+      <h3>Smartphone XYZ</h3>
+      <p>$299.99</p>
+      <a href="https://shopee.ph">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Wireless Earbuds">
+      <h3>Wireless Earbuds</h3>
+      <p>$59.99</p>
+      <a href="https://shopee.ph">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Smartwatch">
+      <h3>Smartwatch Z3</h3>
+      <p>$129.99</p>
+      <a href="https://shopee.ph">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Bluetooth Speaker">
+      <h3>Bluetooth Speaker</h3>
+      <p>$39.99</p>
+      <a href="https://shopee.ph">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Gaming Mouse">
+      <h3>Gaming Mouse</h3>
+      <p>$45.00</p>
+      <a href="https://shopee.ph">Buy Now</a>
+    </div>
+  </div>
+
+  <div class="section-title">Clothes</div>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Casual T-Shirt">
+      <h3>Casual T-Shirt</h3>
+      <p>$19.99</p>
+      <a href="https://shopee.ph">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Sneakers">
+      <h3>Stylish Sneakers</h3>
+      <p>$49.99</p>
+      <a href="https://shopee.ph">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Denim Jacket">
+      <h3>Denim Jacket</h3>
+      <p>$69.99</p>
+      <a href="https://shopee.ph">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Summer Dress">
+      <h3>Summer Dress</h3>
+      <p>$39.99</p>
+      <a href="https://shopee.ph">Buy Now</a>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x150" alt="Athletic Shorts">
+      <h3>Athletic Shorts</h3>
+      <p>$24.99</p>
+      <a href="https://shopee.ph">Buy Now</a>
+    </div>
+  </div>
+
+  <div class="upload-section">
+    <p>Ready to go live? Upload this file to a free hosting site like:</p>
+    <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+    <a href="https://vercel.com/" target="_blank">Vercel</a>
+  </div>
+
+  <footer>
+    <p>© 2025 Tech & Trendy. All rights reserved.</p>
+    <p>Follow us on <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+  </footer>
+</body>
+</html>
